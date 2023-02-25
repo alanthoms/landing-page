@@ -1,0 +1,43 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+    color: white;
+    font-size: 24px;
+}
+
+a{
+    padding: 10px;
+}
+
+.content1{
+    background-color: #1f2937;
+    height: 400px;
+}
+
+
+
+.content2{
+    background-color: white;
+    height: 500px;
+}
+
+
+.content3{
+    background-color: lightgrey;
+    height: 500px;
+}
+
+.footer{
+    background-color: #1f2937;
+    min-height: 100px;
+}
