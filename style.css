@@ -141,7 +141,29 @@ button:hover {
     height: 500px;
 }
 
+.whitebox{
+    box-sizing: border-box;
+    height: 300px;
+    margin: 100px 200px;
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+    padding: 100px 100px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    transition: 1s;
+
+}
+
+.whitebox:hover{
+    background-color: #1f2937;
+    color: white;
+}
 .footer {
     background-color: #1f2937;
     min-height: 100px;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
 }
