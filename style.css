@@ -1,4 +1,4 @@
-body{
+body {
     padding: 0;
     margin: 0;
     display: flex;
@@ -6,7 +6,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.header{
+.header {
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
@@ -17,11 +17,11 @@ body{
     font-weight: 700;
 }
 
-a{
-    margin:  0 40px;
+a {
+    margin: 0 40px;
 }
 
-.content1{
+.content1 {
     background-color: #1f2937;
     height: 800px;
     padding: 50px 250px;
@@ -29,37 +29,119 @@ a{
     justify-content: space-between;
     gap: 100px;
     color: white;
+
 }
 
-.c1container{
+.content1 p {
+    font-size: 24px;
+}
+
+
+.c1container {
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
-.city{
+
+.wave {
     flex: 0 0 auto;
     height: 400px;
     object-fit: cover;
+    filter: grayscale(60%);
+    transition: 0.25s ease-in;
 }
 
-.lady{
+
+.wave:hover {
+    filter: grayscale(0%);
+}
+
+button {
+    border-radius: 12px;
+    background-color: #1f2937;
+    font-size: 24px;
+    padding: 10px;
+    width: 200px;
+    color: whitesmoke;
+    margin: 30px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: aliceblue;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: aliceblue;
+    color: #1f2937;
+}
+
+
+.lady {
     max-width: 400px;
     height: auto;
     object-fit: cover;
+    transition: 5s;
+    filter: blur(2px) grayscale(30%);
 }
 
-.content2{
+.lady:hover {
+    filter: blur(0px) grayscale(0%);
+    transition: 0.5s ease;
+}
+
+.content2 {
     background-color: white;
-    height: 500px;
+    background-image: url(https://images.unsplash.com/photo-1525104885119-8806dd94ad58?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    filter: grayscale(80%);
+    filter: hue-rotate(10);
+    height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.boxrow {
+    align-self: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+    align-items: center;
 }
 
 
-.content3{
+.box {
+    box-sizing: border-box;
+    height: 300px;
+    width: 300px;
+    padding:100px 0px;
+    border: 10px solid white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    transition: 1s ;
+
+}
+
+.box:hover{
+    font-size: 80px;
+    height: 450px;
+    width: 450px;
+    padding: 150px 0;
+    transform: rotate(360deg);
+}
+
+.content3 {
     background-color: lightgrey;
     height: 500px;
 }
 
-.footer{
+.footer {
     background-color: #1f2937;
     min-height: 100px;
 }
