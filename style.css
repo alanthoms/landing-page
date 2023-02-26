@@ -3,6 +3,7 @@ body{
     margin: 0;
     display: flex;
     flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .header{
@@ -10,21 +11,42 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 120px;
+    padding: 0 150px;
     color: white;
     font-size: 24px;
+    font-weight: 700;
 }
 
 a{
-    padding: 10px;
+    margin:  0 40px;
 }
 
 .content1{
     background-color: #1f2937;
-    height: 400px;
+    height: 800px;
+    padding: 50px 250px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    color: white;
 }
 
+.c1container{
+    display: flex;
+    flex-direction: column;
+}
 
+.city{
+    flex: 0 0 auto;
+    height: 400px;
+    object-fit: cover;
+}
+
+.lady{
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+}
 
 .content2{
     background-color: white;
